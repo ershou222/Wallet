@@ -48,8 +48,6 @@ api接口实现类
 public Double queryUserBalance(String name) {
   //sql查出用户余额
   String sql = "select balance from t_wallet where id = (select walletId from t_user where name = ?)";
-  
-
 }
 
 2. 用户消费100元的接口
@@ -91,3 +89,12 @@ public Integer refundUserAmount(String name, Double amount) {
  
  }
 请给出建表语句和对应的代码（只要能实现上面api接口要求即可，不相关的表和代码不用写）
+
+
+
+
+
+
+
+找不到工作是现实
+找得到工作是缘分
